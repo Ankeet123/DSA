@@ -14,7 +14,7 @@ class Complex
         {
             cout<<"a = "<<a<<", b = "<<b<<endl;
         }
-        Complex operator +(Complex c)
+        Complex operator +(Complex &c)
         {
             Complex temp;
             temp.a = a + c.a;
