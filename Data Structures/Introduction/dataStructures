@@ -1,0 +1,24 @@
+Program is defined as the set of instructions that performs operations on data to get some results.
+
+Data structure is the arrangement of collection of data
+items so that operations on the data can be done efficiently.
+
+In the main memory during the execution of data. 
+
+Whatever data is used, be it opening notepad or 
+downloading a file from internet, it should be in the 
+main memory. 
+
+Data structures are formed in the main memory during 
+the execution time of Program. 
+
+Database means arranging the data in some relational
+model in the permanent storage so that it can be 
+retrieved by applications easily. 
+
+Data warehouse is a type of data management system designed to store 
+huge amounts of data. Used when required. 
+
+Huge size data is getting accumulated day by day on the internet.
+
+Big Data 
