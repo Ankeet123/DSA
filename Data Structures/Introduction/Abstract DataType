@@ -1,0 +1,10 @@
+Data type is defined as :
+1. Representation of data (how you are storing the data)
+2. Operation on data
+
+int x;
+here 2 bytes memory is allotted which means 16 bits.
+1 bit is reserved for sign bits. Rest 15 bits are 
+used for storing data. 
+
+Abstract means hiding internal details. 

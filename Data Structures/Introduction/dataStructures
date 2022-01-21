@@ -22,3 +22,67 @@ huge amounts of data. Used when required.
 Huge size data is getting accumulated day by day on the internet.
 
 Big Data 
+
+Memory is divided into several addressable units that
+are called bytes. 
+Every byte is having its address. 
+Though it is shown as 2D checkboxes, the addresses
+assigned will be single value and not like coordinate system.
+
+Memory is divided into manageable pieces that are called segments. Usually, the size of segment will be 64KB. 
+
+The block of memory that belongs to the main function is called stack frame or activation record of main function.
+
+Size of memory required by a function was decided at compile time only. 
+
+STATIC MEMORY ALLOCATION
+
+How many bytes of memory was required by the function, was decided at the compile time. So the memory size is static. 
+
+Whatever the variables you declare in the program, or whatever the parameters the functions are taking, for all of them, memory is allocated inside the stack, and it is automatocally created and automatically destroyed when the function ends. 
+
+HEAP MEMORY OR DYNAMIC MEMORY ALLOCATION 
+
+           HEAP
+1. Unorganized memory 
+2. Heap memory should be treated like a resource
+3. Program cannot directly access heap memory. 
+
+void main()
+{
+    int *p;
+    p = new int[5];
+    delete []p;
+    p = NULL;
+}
+
+After we have run the program, memory needs to be deallocated so that the memory is freed and there isn't any memory loss or leak.
+After that the pointer is made NULL.
+
+TYPES OF DATA STRUCTURES
+1. Physical data structures
+2. Logical data structures
+
+In physical, these DS decides or defines how the memory is organized, how the memory is allocated. 
+a. Arrays
+b. Linked List
+
+Arrays, once it is created of some size, that size cannot be changed. So size of array is static. 
+Can be created in heap or stack. 
+
+In LinkedList, the length of list can grow or reduce dynamically. 
+It is always created in heap.
+
+Physical DS are meant for storing the data. They will hold the data, and store in memory. 
+
+Logical DS
+a. Stacks
+b. Queues
+c. Trees
+d. Graph
+e. Hash Table
+
+a and b are linear DS, c and d are non-linear DS while e is a tabular DS. 
+Stack works on the discipline of LIFO (Last in first out). Queues on FIFO. 
+
+All these logical DS are implemented using any of the physical DS or their combinations. 
