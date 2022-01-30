@@ -366,7 +366,7 @@ int main()
     struct Array arr1 = {{2,6,10,15,25}, 10, 5};
     struct Array arr2 = {{3,6,7,15,20}, 10, 5};
     struct Array *arr3;
-    arr3 = Difference(&arr1, &arr2);
+    arr3 = Intersection(&arr1, &arr2);
     Display(*arr3);
     return 0;
 }
