@@ -126,8 +126,8 @@ int main()
 {
     struct Array arr={{2,3,4,5,6}, 10, 5};
 
-    cout<<RBinSearch(arr.A, 0, arr.length-1, 5);
-    // cout<<BinarySearch(arr, 4);
+    // cout<<RBinSearch(arr.A, 0, arr.length-1, 5);
+    cout<<LinearSearch(&arr, 4);
 
     return 0;
 }
