@@ -20,8 +20,7 @@ void enqueue(struct Queue *q,int x)
  else
  {
  q->rear++;
- q->
- Q[q->rear]=x;
+ q->Q[q->rear]=x;
  }
 }
 int dequeue(struct Queue *q)
