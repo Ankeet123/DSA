@@ -10,7 +10,7 @@ void Treecreate()
  struct Queue q;
  create(&q,100);
 
- printf("Eneter root value ");
+ printf("Enter root value ");
  scanf("%d",&x);
  root=(struct Node *)malloc(sizeof(struct Node));
  root->data=x;
@@ -20,12 +20,11 @@ void Treecreate()
  while(!isEmpty(q))
  {
  p=dequeue(&q);
- printf("eneter left child of %d ",p->data);
+ printf("enter left child of %d ",p->data);
  scanf("%d",&x);
  if(x!=-1)
  {
- t=(struct Node *)malloc(sizeof(struct
-Node));
+ t=(struct Node *)malloc(sizeof(struct Node));
  t->data=x;
  t->lchild=t->rchild=NULL;
  p->lchild=t;
@@ -35,8 +34,7 @@ Node));
  scanf("%d",&x);
  if(x!=-1)
  {
- t=(struct Node *)malloc(sizeof(struct
-Node));
+ t=(struct Node *)malloc(sizeof(struct Node));
  t->data=x;
  t->lchild=t->rchild=NULL;
  p->rchild=t;

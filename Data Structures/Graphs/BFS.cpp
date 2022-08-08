@@ -5,7 +5,7 @@ using namespace std;
  
 void BFS(int vtx, int A[][8], int n){
     queue<int> Q;
-    int visited[8] {0};
+    int visited[8] = {0};
  
     // Initial
     cout << vtx << ", " << flush;  // Visit vertex
