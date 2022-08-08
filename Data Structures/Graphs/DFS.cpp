@@ -3,7 +3,7 @@
 using namespace std;
  
 void DFS(int u, int A[][8], int n){
-    static int visited[8] {0};
+    static int visited[8] = {0};
  
     if (visited[u] == 0){
         cout << u << ", " << flush;
